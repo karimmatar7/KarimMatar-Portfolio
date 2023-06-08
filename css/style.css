@@ -271,8 +271,10 @@ span {
 }
 
 .portfolio-box img {
-    width: 100%;
     transition: .5s ease;
+    width: 40rem;
+    height: 20rem;
+    object-fit: cover;
 }
 
 .portfolio-box:hover img {
